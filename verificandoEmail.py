@@ -1,0 +1,1 @@
+# preguiça total de pensar é isso aí tmj
