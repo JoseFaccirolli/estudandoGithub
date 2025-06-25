@@ -9,27 +9,27 @@ colocarmos na main (branch principal)
 ### Criando uma branch
 Como criar sua branch para alterações
 
-´´´bash
+```bash
 git checkout -b "nome-branch"
-´´´
+```
 
 ### Salvando alterações
 para salvar é a mesma sintaxe da main
 mudando somente o nome da branch
 
-´´´bash
+```bash
 git add .
 git commit -m "sua mensagem"
 git push origin nome-branch
-´´´
+```
 
 ### Mesclando branch
 Por fim você pode finalmente adicionar os
 conteúdos da sua branch para a branch principal
 voltando para main e depois dando o merge
 
-´´´bash
+```bash
 git checkout main
 git merge nome-branch
 git push origin main
-´´´
+```
